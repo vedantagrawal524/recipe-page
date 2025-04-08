@@ -25,7 +25,7 @@ main {
 }
 
 article {
-  width: 40em;
+  width: 45em;
   padding: 1.8em;
   border-radius: 1em;
   margin: 4em 2em;
@@ -38,28 +38,34 @@ article {
   gap: 0.7em;
 }
 
-.recipe img {
-  width: 36.4em;
+.info img {
+  width: 41.4em;
   height: auto;
   border-radius: 0.8em;
   align-self: center;
 }
 
-h1 {
+.info h1 {
   color: hsl(24, 5%, 18%);
   font-family: "Young Serif", serif;
   font-size: 2.2rem;
   font-weight: 400;
+  margin-top: 0.7em;
+}
+
+.info p {
+  margin-top: 0.5em;
+}
+
+.preptime {
+  margin-top: 0.7em;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: hsl(330, 100%, 98%);
 }
 
 .preptime h3 {
   color: hsl(332, 51%, 32%);
-}
-
-.preptime {
-  padding: 1rem;
-  border-radius: 0.5rem;
-  background-color: hsl(330, 100%, 98%);
 }
 
 ul {
@@ -75,6 +81,7 @@ h2 {
   color: hsl(14, 45%, 36%);
   font-family: "Young Serif", serif;
   font-weight: 400;
+  margin-left: 0;
 }
 
 .ingredients {
@@ -83,6 +90,7 @@ h2 {
 
 .instructions {
   padding: 0.8rem;
+  margin-bottom: 0.7em;
 }
 
 ol {
@@ -124,10 +132,17 @@ ol li {
   color: hsl(14, 45%, 36%);
 }
 
+ul,
+ol {
+  margin-left: 0.5rem;
+}
+
 .bold {
   font-weight: 700;
 }
 
 hr {
-  color: hsl(30, 18%, 87%);
+  background-color: hsl(30, 18%, 87%);
+  height: 1px;
+  border: none;
 }
