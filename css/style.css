@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+  font-size: 16x;
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  align-items: center;
+}
+
+main {
+  margin: 0 auto;
+}
+
+article {
+  width: 40em;
+  padding: 1.8em;
+  border-radius: 1em;
+  margin: 4em 2em;
+  background-color: hsl(0, 0%, 100%);
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 0.7em;
+}
+
+.recipe img {
+  width: 36.4em;
+  height: auto;
+  border-radius: 0.8em;
+  align-self: center;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-family: "Young Serif", serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.preptime h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.preptime {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: hsl(330, 100%, 98%);
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+ul li {
+  margin-top: 0.7em;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.ingredients {
+  padding: 0.8rem;
+}
+
+.instructions {
+  padding: 0.8rem;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+ol li {
+  margin-top: 0.5em;
+}
+
+.nutrition {
+  padding: 0.8rem;
+}
+
+.nutrition p {
+  margin-top: 0.7em;
+}
+
+.nutrition table {
+  margin-top: 0.5em;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 0.8rem;
+}
+
+.nutrition table td {
+  text-align: justify;
+  padding: 0.5em 1.5em;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition table tr:last-child td {
+  border-bottom: none;
+}
+
+.energy {
+  font-weight: 600;
+  color: hsl(14, 45%, 36%);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+hr {
+  color: hsl(30, 18%, 87%);
+}
